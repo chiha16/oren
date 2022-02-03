@@ -1,5 +1,12 @@
-section {
+.container {
+    overflow: scroll;
+    scroll-snap-type: y mandatory;
     height: 100vh;
+}
+
+section {
+    scroll-snap-align: start;
+    height: 80vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -23,8 +30,44 @@ section {
     color: #00fa9a;
 }
 
+
+.gift {
+    background-image: url(images/2.png);
+    text-align: center;
+    padding-top: 10vh;
+    text-decoration-color: aliceblue;
+    font-family: 'Zen Kurenaido', sans-serif;
+    color: aliceblue;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.oren {
+    background-image: url(images/4.png);
+    text-align: center;
+    padding-top: 10vh;
+    text-decoration-color: aliceblue;
+    font-family: 'Zen Kurenaido', sans-serif;
+    color: aliceblue;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.title2 {
+    font-size: 50px;
+    font-family: 'Zen Kurenaido', sans-serif;
+    text-decoration-color: aliceblue;
+    color: aliceblue;
+}
+
+
+
 @media (max-width: 700px) {
-    .title {
+    .title,title2 {
         font-size: 30px;
     }
 }
