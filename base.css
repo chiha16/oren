@@ -1,0 +1,30 @@
+section {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.home {
+    background-image: url(images/%E8%83%8C%E6%99%AF1.png);
+    text-align: center;
+    padding-top: 10vh;
+    text-decoration-color: aliceblue;
+    font-family: 'Zen Kurenaido', sans-serif;
+    color: aliceblue;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.SNS {
+    font-size: 40px;
+    color: #00fa9a;
+}
+
+@media (max-width: 700px) {
+    .title {
+        font-size: 30px;
+    }
+}
